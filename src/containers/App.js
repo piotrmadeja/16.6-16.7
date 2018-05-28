@@ -8,22 +8,28 @@ import TodoForm from '../components/TodoForm';
 
 
 
-const tasks = [{
-	id: 1,
-	text: 'task1'
-}, {
-	id: 2,
-	text: 'task2'
-}, {
-	id: 3,
-	text: 'task3'
-}, {
+const tasks = [
+  {
+    id: 1,
+    text: 'task1'
+  }, 
+  {
+    id: 2,
+    text: 'task2'
+  }, 
+  {
+    id: 3,
+    text: 'task3'
+  }, 
+  {
     id: 4,
     text: 'task4'
-},  {
+  },
+  {
     id: 5,
     text: 'task5'
-}];
+  }
+];
 
 class App extends React.Component {
     constructor(props){
